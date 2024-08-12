@@ -54,7 +54,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font2);
-    font-size: 2em;
+    font-size: 5vw;
 }
 
 section.normal{
@@ -65,12 +65,30 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.815);
     color: #fff;
+    box-shadow: inset 6px 6px 13px 0px #0000005e;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 section.imagem > p{
-    background-color: #0000006b;
+    background-color: #000000a4;
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px #000;
+}
+
+section#img01{
+    background-image: url('../imagens/pexels-leyla-helvaci-50263565-13872010.jpg');
+    background-position: left top;
+}
+
+section#img02{
+    background-image: url('../imagens/pexels-jmark-211291.jpg');
+   
 }
 
 footer{
